@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Easy Resume Manager
+    </title>
+    <link rel="stylesheet" href="D:\My Workspace\ResumeManager\RM-Client\bootstrap-3.3.7-dist\css\bootstrap.min.css" />
+    <script src="D:\My Workspace\ResumeManager\RM-Client\jquery-3.1.1.min.js"></script>
+    <script src="D:\My Workspace\ResumeManager\RM-Client\angular.min.js"></script>
+
+    <script src="D:\My Workspace\ResumeManager\RM-Client\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row panel panel-primary">
+            <div class="panel-heading">
+                Easy Resume Manager
+                <span style="float:right;vertical-align:top">
+                    <button class="btn btn-info btn-sm">Create Resume</button>
+                    <button class="btn btn-info btn-sm">Log In</button>
+                </span>
+            </div>
+
+            <div class="panel-body">
+                <!--Header and Image Block- STARTS-->
+                <div class="row">
+                    <!--Basic info , Eg: name , role-->
+                    <div class="col-md-6 list-group">
+                        <div class="list-group-item text-uppercase">
+                            <input type="text" placeholder="Enter full name" class="form-controll"></input>
+                        </div>
+                        <div class="list-group-item"><span class="glyphicon glyphicon-briefcase"></span> <input type="text" placeholder="Enter designation" class="form-controll"></input>
+                        </div>
+                        <div class="list-group-item"><span class="glyphicon glyphicon-calendar"> </span> FROM : <select type="text" placeholder="Enter designation" class="form-controll">
+                            <option>2015</option>  
+                            <option>2016</option> 
+                            <option>2017</option> 
+                            <option>2018</option>                     
+                            </select> TO : <select type="text" placeholder="Enter designation" class="form-controll">
+                            <option>2015</option>  
+                            <option>2016</option> 
+                            <option>2017</option> 
+                            <option>2018</option>                     
+                            </select>
+                        </div>
+                        <div class="list-group-item"><span class="glyphicon glyphicon-map-marker"></span>
+                            <input type="text" placeholder="Enter location" class="form-controll"></input>
+                        </div>
+                    </div>
+                    <!--Image section-->
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8" align="center">
+                                <img style="height: 200px;" src="http://3.bp.blogspot.com/-qDc5kIFIhb8/UoJEpGN9DmI/AAAAAAABl1s/BfP6FcBY1R8/s1600/BlueHead.jpg" />
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Header and Image Block- ENDS-->
+                <!--Area of Expertise strats Here-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Area of Expertise
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-10">.Net</label>
+                                </div>
+                                <div class="row">
+                                    <label class="col-md-10">C#</label>
+                                </div>
+                                <div class="row">
+                                    <label class="col-md-10">Angular Js</label>
+                                </div>
+                                <div class="row">
+                                    <label class="col-md-10">Node Js</label>
+                                </div>
+                                <div class="row">
+                                    <label class="col-md-10">Html</label>
+                                </div>
+                                <div class="row">
+                                    <label class="col-md-10">CSS</label>
+                                </div>
+                                <div class="row">
+                                    <input type="text" class="col-md-10 form" placeholder="Enter technology"></input>
+                                </div>
+                            </div>
+                            <div class="col-md-6 panel panel-default">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <h3 class="row panel-heading">
+                                            Certificates
+                                        </h3>
+                                        <div class="row panel-body">
+                                            <div class="col-md-8">
+                                                <div class="row">
+                                                    <span>Bootstrap certificate</span>
+                                                    <span class="glyphicon glyphicon-fullscreen">
+
+                                                    </span>
+                                                </div>
+                                                <div class="row"></div>
+                                                <div class="row">
+                                                    <span>MVC certificate</span>
+                                                    <span class="glyphicon glyphicon-fullscreen">
+
+                                                    </span>
+                                                </div>
+                                                <div class="row"></div>
+                                                <div class="row">
+                                                    <span>PowerShell certificate</span>
+                                                    <span class="glyphicon glyphicon-fullscreen">
+
+                                                    </span>
+                                                </div>
+                                                <div class="row"></div>
+                                                <div class="row">
+                                                    <span>.Net certificate</span>
+                                                    <span class="glyphicon glyphicon-fullscreen">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Area of Expertise End here-->
+                <!--Work Experience-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Work Experience
+                    </div>
+                    <div class="panel-body">
+
+                        <div class="row">
+                            <!--Company block-START-->
+                            <div class="col-md-4">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        Mindtree
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="row well well-sm">
+                                            <div class="col-md-4">Role</div>
+                                            <div class="col-md-8">Senior Software Enginner</div>
+                                        </div>
+                                        <div class="row well well-sm">
+                                            <div class="col-md-4">Project</div>
+                                            <div class="col-md-8">Delivery Platform</div>
+                                        </div>
+                                        <div class="row well well-sm">
+                                            <div class="col-md-4">Project Duration</div>
+                                            <div class="col-md-8">Oct-2015 to Jul-2017</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Company block-END-->
+                            <!--Company block-START-->
+                            <div class="col-md-4">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        Accenture
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="row well well-sm">
+                                            <div class="col-md-4">Role</div>
+                                            <div class="col-md-8">Senior Software Enginner</div>
+                                        </div>
+                                        <div class="row well well-sm">
+                                            <div class="col-md-4">Project</div>
+                                            <div class="col-md-8">Delivery Platform</div>
+                                        </div>
+                                        <div class="row well well-sm">
+                                            <div class="col-md-4">Project Duration</div>
+                                            <div class="col-md-8">Oct-2015 to Jul-2017</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Company block-END-->
+                            <!--Company block-START-->
+                            <div class="col-md-4">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        Microsoft
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="row well well-sm">
+                                            <div class="col-md-4">Role</div>
+                                            <div class="col-md-8">Senior Software Enginner</div>
+                                        </div>
+                                        <div class="row well well-sm">
+                                            <div class="col-md-4">Project</div>
+                                            <div class="col-md-8">Delivery Platform</div>
+                                        </div>
+                                        <div class="row well well-sm">
+                                            <div class="col-md-4">Project Duration</div>
+                                            <div class="col-md-8">Oct-2015 to Jul-2017</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Company block-END-->
+                        </div>
+                    </div>
+
+                </div>
+                <!--Work Experience-->
+                <!--Education Details-STRAT-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Education Details
+                    </div>
+                    <div class="panel-body">
+                        <!--Education sub section -STRATS-->
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                Masters Degree
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-4">College Name</div>
+                                    <div class="col-md-8">AVIT</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">Course</div>
+                                    <div class="col-md-8">ECE</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">Duration</div>
+                                    <div class="col-md-8">2011-2015</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">CGPA</div>
+                                    <div class="col-md-8">8.5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Education sub section -ENDS-->
+                        <!--Education sub section -STRATS-->
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                12th Degree
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-4">College Name</div>
+                                    <div class="col-md-8">AVIT</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">Course</div>
+                                    <div class="col-md-8">ECE</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">Duration</div>
+                                    <div class="col-md-8">2011-2015</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">CGPA</div>
+                                    <div class="col-md-8">8.5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Education sub section -ENDS-->
+                        <!--Education sub section -STRATS-->
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                10th Degree
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-4">College Name</div>
+                                    <div class="col-md-8">AVIT</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">Course</div>
+                                    <div class="col-md-8">ECE</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">Duration</div>
+                                    <div class="col-md-8">2011-2015</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">CGPA</div>
+                                    <div class="col-md-8">8.5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Education sub section -ENDS-->
+                    </div>
+                </div>
+                <!--Education Details-END-->
+            </div>
+
+        </div>
+    </div>
+    <footer style="position: relative;bottom: 0;width: 100%;height: 60px;line-height: 60px;background-color: #f5f5f5;">
+        <div class="container">
+            <span class="text-muted">Created by: Vivek Verma
+            <span style="float:right">
+                Follow me on <a href="https://www.facebook.com/viv.k.v08/about" target="_blank">
+                <img style="height: 19px;vertical-align: text-bottom;" src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/256/social-facebook-icon.png"/>
+                </a>
+                <a href="https://techlearnersite.wordpress.com/" target="_blank">
+                    <img style="height:22px" src="data:image/png;base64,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"/>
+                </a>
+            </span>
+            </span>
+        </div>
+    </footer>
+</body>
+<html>
